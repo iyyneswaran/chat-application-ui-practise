@@ -1,6 +1,44 @@
 .icon-container {
-    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
     background-color: #F2F0FF;
     box-shadow: 0 4px 8px rgb(97, 84, 172);
-    border-radius: 25px;
+    border-radius: 50px;
+    width: 30%;
+    margin-top: 20px;
+}
+
+.iconContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100%;
+    padding: 10px;
+}
+
+.iconContainer div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    padding: 10px;
+    box-shadow: 3px 5px 5px rgb(208, 208, 208);
+}
+
+.icon-container .iconContainer div:first-child {
+    background-color: rgb(97, 84, 172);
+}
+
+.icon-container .iconContainer div .menuIcon {
+    color: rgb(97, 84, 172);
+}
+
+.icon-container .iconContainer div .active {
+    color: #ffffff;
 }
